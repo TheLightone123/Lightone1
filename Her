@@ -259,7 +259,7 @@ local Player = game.Players[Value]
 local RemoteEvent = workspace.resources.RemoteEvent
 
 local InfoTable = {
-    ["CanCollide"] = false; 
+    ["CanCollide"] = True; 
     ["Size"] = Vector3.new(20,20,20); 
     ["Color"] = Color3.fromRGB(0, 0, 0); 
     ["Material"] = Enum.Material.ForceField; 
